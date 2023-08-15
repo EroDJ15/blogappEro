@@ -39,8 +39,7 @@ const User = db.define('users', {
   profileimage: {
     type: DataTypes.STRING,
     allowNull: true,
-    defaultValue:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hobbyconsolas.com%2Fnoticias%2Fdragon-ball-super-impresionante-resina-goku-ultra-instinto-senal-completo-1012705&psig=AOvVaw0PMOa0cwpZj9sBmEDZ_RXq&ust=1691725292542000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCRuPaV0YADFQAAAAAdAAAAABAE',
+    defaultValue: 'goku',
     field: 'profile_img_url',
   },
   status: {
